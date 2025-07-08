@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact | My Site</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1>Contact Me</h1>
+
+  <form onsubmit="showMessage(); return false;">
+    <input type="text" placeholder="Your Name" required><br><br>
+    <input type="email" placeholder="Your Email" required><br><br>
+    <textarea placeholder="Your Message" required></textarea><br><br>
+    <button type="submit">Send</button>
+  </form>
+
+  <script>
+    function showMessage() {
+      alert("Thank you! Your message has been sent.");
+    }
+  </script>
+
+  <br>
+  <a href="index.html">Home</a> |
+  <a href="about.html">About</a>
+</body>
+</html>
